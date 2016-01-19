@@ -17,7 +17,7 @@ if(input.length>0)
 long=input[0];
 for(int i=1;i<input.length;i++)
 {
-check=input[j];
+check=input[i];
 for(j=0;j<Math.min(long.length(),input[i].length());j++)
 {
 if(long.charAt(j)!=check.charAt(j))
